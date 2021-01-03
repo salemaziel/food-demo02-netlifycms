@@ -8,7 +8,6 @@ import HeroBannerHoriz from "../../heroBannerHoriz";
 import FeaturedFoodCardSection2 from "../../FeaturedFoodCardSection2";
 
 const HomePage = ({ data }) => {
-  console.log('data', data)
   return (
     <>
       <HeroBannerHoriz />
