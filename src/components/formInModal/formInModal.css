@@ -1,0 +1,153 @@
+#estimate {
+  background: transparent !important;
+  background-color: transparent !important;
+  margin: auto;
+  border: none !important;
+  max-width: 30%;
+  max-height: 85%;
+  padding: 15px 15px!important;
+}
+
+#signup {
+  background: transparent !important;
+  background-color: transparent !important;
+  margin: auto;
+  border: none !important;
+  max-width: 30%;
+  max-height: 70%;
+  padding: 15px 15px!important;
+}
+
+
+.NoDesktop {
+  display: none;
+}
+
+.NoMobile {
+  display: flex;
+}
+
+@media screen and (min-width: 2400px) {
+  .NoDesktop {
+    display: none;
+  }
+
+  .NoMobile {
+    display: flex;  }
+}
+
+@media screen and (max-width: 1680px) {
+  #estimate {
+    background: transparent !important;
+    background-color: transparent !important;
+    margin: auto;
+    border: none !important;
+    max-width: 50%;
+    padding: 15px 15px!important;
+  }
+  
+  #signup {
+    background: transparent !important;
+    background-color: transparent !important;
+    margin: auto;
+    border: none !important;
+    max-width: 50%;
+    padding: 15px 15px!important;
+  }
+  
+  .NoDesktop {
+    display: none;
+  }
+
+  .NoMobile {
+    display: flex;  }
+}
+
+@media screen and (max-width: 1280px) {
+  .NoDesktop {
+    display: none;
+  }
+
+  .NoMobile {
+    display: flex;  }
+}
+
+@media screen and (max-width: 980px) {
+  .NoDesktop {
+    display: block;
+  }
+
+  .NoMobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+
+
+  #estimate {
+    max-width: 80%;
+}
+
+#signup {
+  max-width: 80%;
+}
+
+  .NoDesktop {
+    display: block;
+  }
+
+  .NoMobile {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+
+#estimate {
+    max-width: 100%;
+    box-shadow: 5px 5px 15px 5px black;
+    background-color: white!important;
+    height: 540px;
+}
+
+#signup {
+  max-width: 100%;
+  box-shadow: 5px 5px 15px 5px black;
+  background-color: white!important;
+  height: 540px;
+}
+
+ul.actions {
+    list-style: none!important;
+    padding-inline-start: 0;
+}
+
+.special {
+    list-style: none!important;
+}
+
+.sectionWrap {
+  margin: 25% auto;
+}
+
+
+  .NoDesktop {
+    display: block;
+  }
+
+  .NoMobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .NoDesktop {
+    display: block;
+  }
+
+  .NoMobile {
+    display: none;
+  }
+}
