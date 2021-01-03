@@ -1,8 +1,8 @@
 
 backend:
-  name: github
-  repo: salemaziel/food-demo02-netlifycms
-  branch: master
+  name: git-gateway
+  repo: ajmaln/food-demo02-netlifycms
+  branch: main
 media_folder: static/assets/images
 public_folder: /assets
 collections:
