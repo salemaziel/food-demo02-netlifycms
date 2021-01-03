@@ -4,7 +4,6 @@ import { Link, navigateTo } from "gatsby";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
-
 import Container from "react-bootstrap/Container";
 import SideNav from "react-simple-sidenav";
 
@@ -13,11 +12,11 @@ import navStyles from "./navbar.module.css";
 import { FaHome } from "react-icons/fa";
 import { graphql, StaticQuery } from "gatsby";
 
-import {LogoWhite} from '../../images/index'
+import { LogoWhite } from "../../images/index";
 
 //then
 
-const NavbarCustom = ({data}) => {
+const NavbarCustom = ({ data }) => {
   const [showNav, setShowNav] = useState();
   const [scroll, setScroll] = useState(false);
 
@@ -37,14 +36,14 @@ const NavbarCustom = ({data}) => {
         className={navStyles.headerNavbar}
       >
         <Container>
-            <Navbar.Brand as={Link} to="/">
-              <img
-                className="d-inline-block align-top"
-                src={data.siteYaml.logo_image}
-                alt="Logo"
-                height="60"
-              ></img>
-            </Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">
+            <img
+              className="d-inline-block align-top"
+              src={data.siteYaml.logo_image}
+              alt="Logo"
+              height="60"
+            ></img>
+          </Navbar.Brand>
           {/*<Navbar.Brand /*as={Link} to="/"* />
             <Dropdown>
             <Dropdown.Toggle variant="" id="dropdown-basic">
@@ -139,11 +138,12 @@ const NavbarCustom = ({data}) => {
                 </NavDropdown.Item>
               </NavDropdown>*/}
             </Nav>
-            <Nav className="mr-1"
-                          defaultActiveKey="/"
-                          onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
+            <Nav
+              className="mr-1"
+              defaultActiveKey="/"
+              onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
             >
-            <Nav.Item to="/#hours" className={navStyles.navItem}>
+              <Nav.Item to="/#hours" className={navStyles.navItem}>
                 <Nav.Link as={Link} to="/#hours" active={false}>
                   Hours
                 </Nav.Link>
@@ -166,7 +166,6 @@ const NavbarCustom = ({data}) => {
                   Contact
                 </Nav.Link>
               </Nav.Item>
-
             </Nav>
           </Navbar>
           <SideNav
@@ -244,8 +243,9 @@ let navQuery = graphql`
   }
 `;
 
-export default (props)=> (<StaticQuery query={navQuery} render={data => (
-  <NavbarCustom  data={data}  />
-)}></StaticQuery>);
-
-
+export default (props) => (
+  <StaticQuery
+    query={navQuery}
+    render={(data) => <NavbarCustom data={data} />}
+  ></StaticQuery>
+);
