@@ -15,6 +15,7 @@ friday_hours: 8:30AM - 5:30PM
 saturday_hours: 8:30AM - 5:30PM
 business_address: 1234 N. Broadway, Escondido, CA 92025
 business_phone: 760-555-5555
-
-
-
+theme: "red"
+featured_cards:
+  - {image: /assets/images/bg.jpg, title: "Title1", description: "Description1", price: "100$"}
+  - {image: /assets/images/bg.jpg, title: "Title2", description: "Description2", price: "100$"}
