@@ -2,7 +2,6 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import { graphql, StaticQuery } from "gatsby";
 
 import homeStyles from "./home.module.css";
 

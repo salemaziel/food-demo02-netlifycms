@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 import Card from "react-bootstrap/Card";
 
@@ -7,7 +7,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { StockTacoMd } from "../images/index";
 
 const settings = {
   className: "center",
@@ -62,116 +61,7 @@ const FeaturedFoodCards2 = ({ data }) => {
             </Card>
           </div>
         ))}
-        <div>
-          <Card>
-            <Card.Img variant="top" src={StockTacoMd} />
-            <Card.Body className="d-flex flex-column text-center align-items-center px-4 py-2 ">
-              <h3 className="font-weight-bold mb-0 mt-4">Carne Asada Tacos</h3>
-              <small>$4.99</small>
-              <Card.Text className="mt-4">
-                1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dolorum consequatur numquam aliquam tenetur ad amet inventore
-                hic beatae, quas accusantium perferendis sapiente explicabo.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-        <div>
-          <Card>
-            <Card.Img variant="top" src={StockTacoMd} />
-            <Card.Body className="d-flex flex-column text-center align-items-center px-4 py-2 ">
-              <h3 className="font-weight-bold mb-0 mt-4">Carne Asada Tacos</h3>
-              <small>$4.99</small>
-              <Card.Text className="mt-4">
-                2. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dolorum consequatur numquam aliquam tenetur ad amet inventore
-                hic beatae, quas accusantium perferendis sapiente explicabo.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-        <div>
-          <Card>
-            <Card.Img variant="top" src={StockTacoMd} />
-            <Card.Body className="d-flex flex-column text-center align-items-center px-4 py-2 ">
-              <h3 className="font-weight-bold mb-0 mt-4">Carne Asada Tacos</h3>
-              <small>$4.99</small>
-              <Card.Text className="mt-4">
-                3. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dolorum consequatur numquam aliquam tenetur ad amet inventore
-                hic beatae, quas accusantium perferendis sapiente explicabo.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-        <div>
-          <Card>
-            <Card.Img variant="top" src={StockTacoMd} />
-            <Card.Body className="d-flex flex-column text-center align-items-center px-4 py-2 ">
-              <h3 className="font-weight-bold mb-0 mt-4">Carne Asada Tacos</h3>
-              <small>$4.99</small>
-              <Card.Text className="mt-4">
-                4. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dolorum consequatur numquam aliquam tenetur ad amet inventore
-                hic beatae, quas accusantium perferendis sapiente explicabo.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-        <div>
-          <Card>
-            <Card.Img variant="top" src={StockTacoMd} />
-            <Card.Body className="d-flex flex-column text-center align-items-center px-4 py-2 ">
-              <h3 className="font-weight-bold mb-0 mt-4">Carne Asada Tacos</h3>
-              <small>$4.99</small>
-              <Card.Text className="mt-4">
-                5. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dolorum consequatur numquam aliquam tenetur ad amet inventore
-                hic beatae, quas accusantium perferendis sapiente explicabo.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-        {/*<div>
-          <Card>
-            <Card.Img variant="top" src={StockTacoMd} />
-            <Card.Body className="d-flex flex-column text-center align-items-center px-4 py-2 ">
-              <h3 className="font-weight-bold mb-0 mt-4">Carne Asada Tacos</h3>
-              <small>$4.99</small>
-              <Card.Text className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo.</Card.Text>
-            </Card.Body>
-          </Card>
-          </div>*/}
-        {/*<div>
-          <Card>
-            <Card.Img variant="top" src={StockTacoMd} />
-            <Card.Body className="d-flex flex-column text-center align-items-center px-4 py-2 ">
-              <h3 className="font-weight-bold mb-0 mt-4">Carne Asada Tacos</h3>
-              <small>$4.99</small>
-              <Card.Text className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo.</Card.Text>
-            </Card.Body>
-          </Card>
-          </div>*/}
-        {/*<div>
-          <Card>
-            <Card.Img variant="top" src={StockTacoMd} />
-            <Card.Body className="d-flex flex-column text-center align-items-center px-4 py-2 ">
-              <h3 className="font-weight-bold mb-0 mt-4">Carne Asada Tacos</h3>
-              <small>$4.99</small>
-              <Card.Text className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo.</Card.Text>
-            </Card.Body>
-          </Card>
-          </div>*/}
-        {/*<div>
-          <Card>
-            <Card.Img variant="top" src={StockTacoMd} />
-            <Card.Body className="d-flex flex-column text-center align-items-center px-4 py-2 ">
-              <h3 className="font-weight-bold mb-0 mt-4">Carne Asada Tacos</h3>
-              <small>$4.99</small>
-              <Card.Text className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo.</Card.Text>
-            </Card.Body>
-          </Card>
-          </div>*/}
+
       </Slider>
     </div>
   );

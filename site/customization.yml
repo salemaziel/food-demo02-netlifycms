@@ -19,3 +19,5 @@ theme: "red"
 featured_cards:
   - {image: /assets/images/bg.jpg, title: "Title1", description: "Description1", price: "100$"}
   - {image: /assets/images/bg.jpg, title: "Title2", description: "Description2", price: "100$"}
+  - {image: /assets/images/bg.jpg, title: "Title3", description: "Description3", price: "100$"}
+  - {image: /assets/images/bg.jpg, title: "Title4", description: "Description4", price: "100$"}

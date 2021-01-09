@@ -12,7 +12,6 @@ import navStyles from "./navbar.module.css";
 import { FaHome } from "react-icons/fa";
 import { graphql, StaticQuery } from "gatsby";
 
-import { LogoWhite } from "../../images/index";
 
 //then
 
@@ -44,32 +43,6 @@ const NavbarCustom = ({ data }) => {
               height="60"
             ></img>
           </Navbar.Brand>
-          {/*<Navbar.Brand /*as={Link} to="/"* />
-            <Dropdown>
-            <Dropdown.Toggle variant="" id="dropdown-basic">
-                <img
-                  className="d-inline-block align-top"
-                  src="https://res.cloudinary.com/dexdumfqy/image/upload/v1601552057/rbl-art-designs/mexico-flag-transparent-100x_zmifmm.png"
-                  alt="Logo"
-                  height="40"
-                ></img>
-              </Dropdown.Toggle>
-
-              <Dropdown.Menu>
-                <Dropdown.Item as={Link} to="/en/home">
-                  {" "}
-                  <img
-                    className="d-inline-block align-top"
-                    src="https://res.cloudinary.com/dexdumfqy/image/upload/v1601579192/rbl-art-designs/united-states-of-america-flag-3d-round-icon-256_gbffry.png"
-                    alt="Logo"
-                    height="40"
-                  ></img> English
-                </Dropdown.Item>
-                {/*<Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>* /}
-              </Dropdown.Menu>
-            </Dropdown>
-        </Navbar.Brand>*/}
           <Navbar.Toggle
             aria-controls="navbar-nav"
             className="border-0"
@@ -90,53 +63,6 @@ const NavbarCustom = ({ data }) => {
               defaultActiveKey="/"
               onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
             >
-              {/*<Nav.Item to="/#" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/#" active={false}>
-                  Quienes Somos
-                </Nav.Link>
-              </Nav.Item>
-
-              {/*<Nav.Item to="/faq" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/faq" active={false}>
-                  FAQ
-                </Nav.Link>
-          </Nav.Item>* /}
-
-              <Nav.Item to="/#" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/#" active={false}>
-                  Servicios
-                </Nav.Link>
-              </Nav.Item>
-
-              <Nav.Item to="/#" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/#" active={false}>
-                  Contacto
-                </Nav.Link>
-              </Nav.Item>
-
-              {/*<NavDropdown
-                as={Link}
-                href="/mas"
-                to="/mas"
-                eventKey="more"
-                title="Más"
-                id="nav-dropdown-about"
-                className={navStyles.navItem}
-              >
-                <NavDropdown.Item eventKey="/#">
-                  {" "}
-                  Dropdown Item 1{" "}
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/#">
-                  Dropdown Item 2
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/#">
-                  Dropdown Item 3
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/#">
-                  Dropdown Item 4
-                </NavDropdown.Item>
-              </NavDropdown>*/}
             </Nav>
             <Nav
               className="mr-1"
@@ -149,11 +75,6 @@ const NavbarCustom = ({ data }) => {
                 </Nav.Link>
               </Nav.Item>
 
-              {/*<Nav.Item to="/faq" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/faq" active={false}>
-                  FAQ
-                </Nav.Link>
-          </Nav.Item>*/}
 
               <Nav.Item to="/#specials" className={navStyles.navItem}>
                 <Nav.Link as={Link} to="/#specials" active={false}>
@@ -178,14 +99,6 @@ const NavbarCustom = ({ data }) => {
                   alignItems: "center",
                 }}
               >
-                {/*
-		<img 
-		  src=""
-		  alt=""
-		  style={{
-			margin: 'auto'	
-		  }} />
-		*/}
               </div>
             }
             titleStyle={{
