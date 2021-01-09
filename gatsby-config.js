@@ -42,10 +42,6 @@ module.exports = {
         sitemap: 'https://food-demo01.viadelweb.com/sitemap.xml',
       }
     },
-
-    {
-      resolve: `gatsby-plugin-styled-components`,
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
