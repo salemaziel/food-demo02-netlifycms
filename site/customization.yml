@@ -17,7 +17,7 @@ business_address: 1234 N. Broadway, Escondido, CA 92025
 business_phone: 760-555-5555
 theme: "red"
 featured_cards:
-  - {image: /assets/images/bg.jpg, title: "Title1", description: "Description1", price: "100$"}
-  - {image: /assets/images/bg.jpg, title: "Title2", description: "Description2", price: "100$"}
-  - {image: /assets/images/bg.jpg, title: "Title3", description: "Description3", price: "100$"}
-  - {image: /assets/images/bg.jpg, title: "Title4", description: "Description4", price: "100$"}
+  - {image: /assets/images/bg.jpg, title: "Title1", description: "Description1", price: "7.99$"}
+  - {image: /assets/images/bg.jpg, title: "Title2", description: "Description2", price: "7.99$"}
+  - {image: /assets/images/bg.jpg, title: "Title3", description: "Description3", price: "7.99$"}
+  - {image: /assets/images/bg.jpg, title: "Title4", description: "Description4", price: "7.99$"}

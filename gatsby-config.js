@@ -38,8 +38,8 @@ module.exports = {
      {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://food-demo01.viadelweb.com',
-        sitemap: 'https://food-demo01.viadelweb.com/sitemap.xml',
+        host: 'https://food-demo02.viadelweb.com',
+        sitemap: 'https://food-demo02.viadelweb.com/sitemap.xml',
       }
     },
     {
@@ -68,9 +68,11 @@ module.exports = {
 //    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-sitemap`,
     },
+    {
+      resolve: `gatsby-plugin-offline`,
+    }
   ],
 };
