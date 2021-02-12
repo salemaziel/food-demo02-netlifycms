@@ -39,3 +39,21 @@
     box-shadow: 0px 1px 10px 0px black;
 
 }
+
+.navDropInner{
+    position: absolute;
+    top:69vh;
+    left: 50%;
+    width: 100%;
+    display: none;
+}
+@media screen and (max-width: 980px) {
+    .navDropInner{
+        display: block;
+    }
+}
+@media screen and (max-width: 480px) {
+    .navDropInner{
+        left: 45%;
+     }
+}

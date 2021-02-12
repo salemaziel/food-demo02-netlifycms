@@ -6,10 +6,10 @@ module.exports = {
     url: 'https://food-demo02.viadelweb.com', // Domain of your site. No trailing slash!
     siteUrl: 'https://food-demo02.viadelweb.com/', // url + pathPrefix
     siteLanguage: 'en', // Language Tag on <html> element
-    logo: '/static/logo/logo.png', // Used for SEO
-    banner: '/static/logo/banner.png',
+    logo: '/logo/logo.png', // Used for SEO
+    banner: '/logo/banner.png',
     // JSONLD / Manifest
-    favicon: '/static/logo/favicon.png', // Used for manifest favicon generation
+    favicon: '/logo/favicon.png', // Used for manifest favicon generation
     shortName: 'Food Demo 02', // shortname for manifest. MUST be shorter than 12 characters
     author: 'Salem Aziel', // Author for schemaORGJSONLD
     themeColor: '#fff',
