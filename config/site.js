@@ -1,16 +1,16 @@
 module.exports = {
     pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
-    title: 'SalemAziel Gatsby Starting Template', // Navigation and Site Title
-    titleAlt: 'SalemAziel Gatsby Template', // Title for JSONLD
-    description: 'Minimalistic gatsby template with bootstrap',
-    url: 'https://salemaziel.com', // Domain of your site. No trailing slash!
-    siteUrl: 'https://salemaziel.com/', // url + pathPrefix
+    title: 'Restaurant Demo Template 02', // Navigation and Site Title
+    titleAlt: 'Restaurant Demo Template 02', // Title for JSONLD
+    description: 'Restaurant Demo Template 02',
+    url: 'https://food-demo02.viadelweb.com', // Domain of your site. No trailing slash!
+    siteUrl: 'https://food-demo02.viadelweb.com/', // url + pathPrefix
     siteLanguage: 'en', // Language Tag on <html> element
-    logo: 'static/logo/logo.png', // Used for SEO
-    banner: 'static/logo/banner.png',
+    logo: '/static/logo/logo.png', // Used for SEO
+    banner: '/static/logo/banner.png',
     // JSONLD / Manifest
-    favicon: 'static/logo/favicon.png', // Used for manifest favicon generation
-    shortName: 'Salem', // shortname for manifest. MUST be shorter than 12 characters
+    favicon: '/static/logo/favicon.png', // Used for manifest favicon generation
+    shortName: 'Food Demo 02', // shortname for manifest. MUST be shorter than 12 characters
     author: 'Salem Aziel', // Author for schemaORGJSONLD
     themeColor: '#fff',
     backgroundColor: '#000',

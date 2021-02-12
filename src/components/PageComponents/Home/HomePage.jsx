@@ -4,7 +4,6 @@ import SectionSchedule from "./section1Schedule";
 import { graphql, StaticQuery } from "gatsby";
 
 import HeroBannerHoriz from "../../heroBannerHoriz";
-//import SectionTilez from '../../SectionTilez/section2Tiles'
 import FeaturedFoodCardSection2 from "../../FeaturedFoodCardSection2";
 
 const HomePage = ({ data }) => {

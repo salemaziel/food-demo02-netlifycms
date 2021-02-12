@@ -2,10 +2,11 @@ const config = require('./config/site');
 
 module.exports = {
   siteMetadata: {
-    title: `Food Demo 01`,
-    description: `Restaurant Demo Template`,
+    title: `Food Demo 02`,
+    description: `Restaurant Demo Template 02`,
     author: `@salemaziel`,
-    siteUrl: `https://food-demo01.viadelweb.com`
+    siteUrl: `https://food-demo01.viadelweb.com`,
+    ...config
   },
   plugins: [
     {
@@ -45,8 +46,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Food Demo 01`,
-        short_name: `Food 01`,
+        name: `Food Demo 02`,
+        short_name: `Food 02`,
         start_url: `/`,
         background_color: `#dc3545`,
         theme_color: `#dc3545`,
